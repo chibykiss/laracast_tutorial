@@ -1,7 +1,7 @@
 <?php
-$page = 'Home';
-// dd($_SERVER['REQUEST_URI']);
-require 'views/index.view.php';
+view('index.view.php',[
+    'page' => 'Home'
+]);
 
 
 /** THINGS I DID IN THIS EPISODE */
